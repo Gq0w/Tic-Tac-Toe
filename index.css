@@ -1,0 +1,40 @@
+
+
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+
+.cell {
+   width: 100px;
+   height: 100px;
+   background-color: gray;
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   position: relative;
+   font-size: 100px;
+
+}
+
+.button {
+    background-color: red; 
+}
+
+.cell:hover {
+    background-color: blue; 
+
+
+}
+
